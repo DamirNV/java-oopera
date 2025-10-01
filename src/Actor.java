@@ -3,8 +3,7 @@ import java.util.Objects;
 public class Actor extends Person{
 
     public Actor(String name, String surname, Gender gender, Double height) {
-        super(name, surname, gender);
-        this.height = height;
+        super(name, surname, gender, height);
     }
 
     @Override
