@@ -1,6 +1,10 @@
+package shows;
+import persons.Actor;
+import persons.Director;
+import persons.MusicAuthor;
 import java.util.ArrayList;
 
-public class MusicalShow extends Show{
+public class MusicalShow extends Show {
     MusicAuthor musicAuthor;
     String librettoText;
 
@@ -11,9 +15,10 @@ public class MusicalShow extends Show{
         this.librettoText = librettoText;
     }
 
-    public void printLibrettoText(){
+    public void printLibrettoText() {
         System.out.println("Текст либретто " + "«" + this.title + "»" + ":");
         System.out.println(librettoText);
     }
 
 }
+

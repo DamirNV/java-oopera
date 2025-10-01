@@ -1,3 +1,6 @@
+package shows;
+import persons.Actor;
+import persons.Director;
 import java.util.ArrayList;
 
 public class Show {
@@ -39,7 +42,7 @@ public class Show {
         boolean found = false;
         for (int i = 0; i < listOfActors.size(); i++) {
             Actor actor = listOfActors.get(i);
-            if (actor.surname.equals(surname)) {
+            if (actor.getSurname().equals(surname)) {
                 listOfActors.set(i, newActor);
                 found = true;
                 break;
