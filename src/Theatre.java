@@ -14,8 +14,8 @@ public class Theatre {
         Director stevenSpielberg = new Director("Стивен", "Спилберг", Gender.MALE, 12);
         Director christopherNolan = new Director("Кристофер", "Нолан", Gender.MALE, 5);
 
-        MusicAuthor hansZimmer = new MusicAuthor("Ханс", "Циммер", Gender.MALE);
-        Choreographer crystalPite = new Choreographer("Кристал", "Пит", Gender.MALE);
+        Person hansZimmer = new Person("Ханс", "Циммер", Gender.MALE);
+        Person crystalPite = new Person("Кристал", "Пит", Gender.MALE);
 
         String operaLibrettoText = """
                 ОПЕРА «ДОВОД» 

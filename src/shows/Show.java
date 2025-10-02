@@ -4,10 +4,10 @@ import persons.Director;
 import java.util.ArrayList;
 
 public class Show {
-    String title;
-    int duration;
-    Director director;
-    ArrayList<Actor> listOfActors;
+    protected String title;
+    protected int duration;
+    protected Director director;
+    protected ArrayList<Actor> listOfActors;
 
 
     public Show(String title, int duration, Director director, ArrayList<Actor> listOfActors) {
